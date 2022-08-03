@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="header/header.css" />
+    <link rel="stylesheet" href="assets/css/estilos.css" />
+
+    <title>The Movie API</title>
+  </head>
+  <body>
+    <!--* header Component -->
+    <header class="header">
+      <div class="header-container">
+        <div class="profile">
+          <div class="logoFoto">
+            <a href="#" class="logo">
+              <img
+                width="96"
+                height="72"
+                src="header/logo.jpg"
+                alt="Software Developer"
+              />
+            </a>
+          </div>
+
+          <div class="logotext">
+            zCoder!<br /><span>...on Social Media</span>
+          </div>
+        </div>
+
+        <div class="phone">
+          <i class="fa fa-phone" aria-hidden="true">+58 0414 324 63 96</i>
+          <p>Carlos Colmenares A.</p>
+        </div>
+      </div>
+    </header>
+
+    <h1 class="movieTitle">Peliculas Actuales Más Populares</h1>
+
+    <div class="contenedor" id="contenedor"></div>
+
+    <div class="paginacion">
+      <button id="btnAnterior">Anterior</button>
+      <button id="btnSiguiente">Siguiente</button>
+    </div>
+
+    <script src="assets/js/index_v2.js"></script>
+  </body>
+</html>
